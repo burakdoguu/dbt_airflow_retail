@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: most_bought_product
+    description: This table most bought top 10 product by category
+
+    columns:
+      - name: productid
+        description: This is a unique identifier for a product
+
+      - name: total_bought
+        description: total bought product count
+
+      - name: categoryid
+        description: unique categoryid 
+
+
